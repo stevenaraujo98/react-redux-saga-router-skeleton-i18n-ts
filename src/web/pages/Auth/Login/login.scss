@@ -1,0 +1,40 @@
+@import '../../../../assets/scss/constants.scss';
+
+#card-login {
+    margin-top: 150px;
+}
+
+.centerarContenidoJust {
+    justify-content: center;
+}
+
+.centerarContenidoAlign {
+    align-items: center;
+}
+
+$small: 400px;
+
+// .MuiPaper-elevation1 {
+//     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+//         0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+//         0 100px 80px rgba(0, 0, 0, 0.12) !important;
+// }
+
+.MuiPaper-rounded {
+    border-radius: 10px !important;
+}
+
+.root-login {
+    background: rgb(255, 139, 122) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 139, 122, 1) 0%,
+        rgba(208, 86, 94, 1) 49%,
+        rgba(184, 2, 13, 1) 100%
+    ) !important;
+    min-width: 400px;
+
+    @media screen and (max-width: $small) {
+        min-width: 280px;
+    }
+}

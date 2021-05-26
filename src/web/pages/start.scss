@@ -1,0 +1,20 @@
+$layout-breakpoint-large: 960px;
+$layout-breakpoint-medium: 600px;
+
+.contendero-headers {
+    margin: 65px 10px 0px 10px;
+}
+// izquierda 73 57
+// arriba 64 56
+
+@media (min-width: $layout-breakpoint-medium) {
+    .contendero-headers {
+        margin: 80px 25px 0px 25px;
+    }
+}
+
+@media (min-width: $layout-breakpoint-large) {
+    .contendero-headers {
+        margin: 80px 50px 0px 50px;
+    }
+}
